@@ -11,5 +11,6 @@ fields:
   name: rank
   label: Rank
 pages:
+- _persons/dierselhuis-alexander.md
 - _persons/kuesters-jens.md
 - _persons/braun-matthias.md
