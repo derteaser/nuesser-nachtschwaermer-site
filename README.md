@@ -1,2 +1,3 @@
-# nuesser-nachtschwaermer-site
+# Nüsser Nachtschwärmer
+
 Website of Schützenlustzug Nüsser Nachtschwärmer
