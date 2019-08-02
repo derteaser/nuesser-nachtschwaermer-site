@@ -7,11 +7,15 @@ sections:
 - type: jekyll-pages
   label: Pages
   create: all
+  templates:
+  - homepage
 - type: directory
   path: _persons
   label: Persons
-  create: all
+  create: documents
   match: "**/*"
+  templates:
+  - person
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
