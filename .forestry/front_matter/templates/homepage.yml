@@ -1,0 +1,63 @@
+---
+label: homepage
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: file
+  name: banner
+  label: banner
+- type: field_group
+  name: statistics
+  label: statistics
+  fields:
+  - type: file
+    name: banner
+    label: banner
+  - type: field_group
+    name: yearsActive
+    label: yearsActive
+    fields:
+    - type: text
+      name: label
+      label: label
+    - type: number
+      name: value
+      label: value
+  - type: field_group
+    name: activeMembers
+    label: activeMembers
+    fields:
+    - type: text
+      name: label
+      label: label
+    - type: number
+      name: value
+      label: value
+  - type: field_group
+    name: number
+    label: number
+    fields:
+    - type: text
+      name: label
+      label: label
+    - type: number
+      name: value
+      label: value
+- type: field_group
+  name: quote
+  label: quote
+  fields:
+  - type: file
+    name: banner
+    label: banner
+  - type: text
+    name: text
+    label: text
+  - type: text
+    name: cite
+    label: cite
