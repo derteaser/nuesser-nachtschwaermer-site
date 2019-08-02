@@ -1,6 +1,5 @@
 ---
-title: Dohmann Gernot
+title: Gernot Dohmann
 rank: ''
-published: false
 
 ---
