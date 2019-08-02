@@ -1,6 +1,5 @@
 ---
-title: Dierselhuis Alexander
+title: Alexander Dierselhuis
 rank: ''
-published: false
 
 ---
