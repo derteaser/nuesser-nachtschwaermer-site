@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <title>{% if page.url != "/" %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#151a39">
+    <meta name="apple-mobile-web-app-title" content="{{ site.title }}">
+    <meta name="application-name" content="{{ site.title }}">
+    <meta name="msapplication-TileColor" content="#151a39">
+    <meta name="theme-color" content="#ffffff">
+    <!-- CSS FILES -->
+    <link rel="stylesheet" type="text/css" href="{{ '/css/site.min.css' | absolute_url }}">
+</head>
+<body>
+<div class="uk-section uk-background-cover uk-background-top-center uk-position-relative" style="background-image: url('/images/zug.jpg')" uk-parallax="bgy: 200">
+    <div class="overlay-banner uk-position-cover"></div>
+    <div class="uk-container uk-text-center uk-light">
+        <div uk-scrollspy="target: > *;cls:uk-animation-slide-bottom-medium;delay:200">
+            <img src="/images/logo.png" alt="{{ site.title }}" width="146" height="197">
+            <h1>{{ site.title }}</h1>
+            <h2>{{ site.description }}</h2>
+        </div>
+        <div class="uk-margin-top" uk-scrollspy="cls:uk-animation-slide-left-medium;delay:200">
+            <a href="{{ site.facebook }}" target="_blank" rel="noopener noreferrer"><span class="uk-icon-button" uk-icon="icon:facebook;ratio:2"></span></a>
+        </div>
+    </div>
+</div>
+
+{{ content }}
+
+<footer class="uk-section uk-container uk-text-center uk-text-meta">
+    &copy; 2019 {{ site.title }}
+</footer>
+
+<script src="{{ '/js/site.min.js' | absolute_url }}"></script>
+</body>
+</html>

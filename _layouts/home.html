@@ -1,0 +1,69 @@
+---
+layout: default
+---
+
+<div class="uk-section uk-container" id="bio-animate">
+    <div class="uk-grid-large" uk-grid uk-scrollspy="target: > *;cls:uk-animation-slide-bottom-medium;delay:200">
+        <div class="uk-width-1-4@m">
+            <h3 class="uk-heading-divider">{{ page.title }}</h3>
+            <p class="uk-text-meta">Unsere Geschichte.</p>
+        </div>
+        <div class="uk-width-expand">
+            <div class="uk-column-1-2@m">{{ content }}</div>
+        </div>
+    </div>
+</div>
+
+<div class="uk-section uk-background-cover uk-position-relative" style="background-image: url('{{ page.statistics.banner }}')"  uk-parallax="bgy: 200">
+    <div class="overlay-dark uk-position-cover"></div>
+    <div class="uk-container uk-light" id="counter-animate">
+        <div class="uk-child-width-1-3@m" uk-grid uk-scrollspy="target: > *;cls:uk-animation-slide-bottom-medium;delay:200">
+            <div class="uk-text-center">
+                <p class="uk-heading-large zoom-number">{{ page.statistics.yearsActive.value }}</p>
+                <p class="fh5co-counter-label">{{ page.statistics.yearsActive.label }}</p>
+            </div>
+            <div class="uk-text-center">
+                <p class="uk-heading-large zoom-number">{{ page.statistics.activeMembers.value }}</p>
+                <p class="fh5co-counter-label">{{ page.statistics.activeMembers.label }}</p>
+            </div>
+            <div class="uk-text-center">
+                <p class="uk-heading-large zoom-number">{{ page.statistics.number.value }}</p>
+                <p class="fh5co-counter-label">{{ page.statistics.number.label }}</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END .container -->
+
+<div class="uk-container uk-section" id="services-animate">
+    <div class="uk-grid-large" uk-grid uk-scrollspy="target: > *;cls:uk-animation-slide-bottom-medium;delay:200">
+        <div class="uk-width-1-4@m">
+            <h3 class="uk-heading-divider">Die Nachtschw&auml;rmer</h3>
+            <p class="uk-text-meta">Das sind die Nachtschw&auml;rmer.</p>
+        </div>
+        <div class="uk-width-expand">
+            <ul class="uk-list uk-list-divider">
+                {% for person in site.persons %}
+                <li>
+                    <h4 class="uk-align-left uk-margin-remove-bottom"><i class="icon-user"></i>{{ person.title }}</h4>
+                    <span class="uk-align-right uk-text-muted uk-text-uppercase">{{ person.rank }}</span>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+    <!-- END .row -->
+
+</div>
+<!-- END .container -->
+
+<div class="uk-section uk-background-cover uk-background-top-center uk-height-large uk-flex uk-flex-center uk-flex-middle uk-position-relative" id="testimony-animate" style="background-image: url('{{ page.quote.banner }}')" uk-parallax="bgy: 200">
+    <div class="overlay-dark uk-position-cover"></div>
+    <div class="uk-container uk-light" uk-scrollspy="cls:uk-animation-slide-bottom;delay:200">
+        <blockquote class="uk-text-center">
+            <p class="uk-margin-small-bottom">&ldquo;{{ page.quote.text }}&rdquo;</p>
+            <footer>&mdash; <cite>{{ page.quote.cite }}</cite></footer>
+        </blockquote>
+    </div>
+</div>
+<!-- END .container -->

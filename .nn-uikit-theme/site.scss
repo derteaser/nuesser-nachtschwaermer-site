@@ -1,0 +1,64 @@
+@import "fonts.scss";
+
+// 1. Your custom variables and variable overwrites.
+@import "theme/variables.scss";
+@import "theme/base.scss";
+@import "theme/inverse.scss";
+
+// 2. Import default variables and available mixins.
+@import "node_modules/uikit/src/scss/variables.scss";
+@import "node_modules/uikit/src/scss/mixins.scss";
+
+// 3. Your custom mixin overwrites.
+
+
+// 4. Import UIkit
+@import "node_modules/uikit/src/scss/uikit.scss";
+
+
+// Custom styles
+
+$font-family-montserrat: 'Montserrat', Helvetica, Arial, sans-serif;
+$font-family-sanchez: 'Sanchez', 'Times New Roman', serif;
+
+h1, .uk-h1 {
+  font-family: $font-family-montserrat;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  -ms-word-break: break-all;
+  word-break: break-all;
+
+  /* Non standard for webkit */
+  word-break: break-word;
+
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
+h2, .uk-h2 {
+  font-family: $font-family-sanchez;
+}
+
+h3, .uk-h3 {
+  font-family: $font-family-montserrat;
+  text-transform: uppercase;
+}
+
+blockquote {
+  font-family: $font-family-sanchez;
+
+  footer {
+    font-family: $font-family-montserrat;
+  }
+}
+
+.overlay-banner {
+  background: rgba(68,218,130,.9);
+}
+
+.overlay-dark {
+  background: rgba(0,0,0,.4);
+}
