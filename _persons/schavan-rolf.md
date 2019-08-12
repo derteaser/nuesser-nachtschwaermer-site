@@ -1,4 +1,5 @@
 ---
 title: Rolf Schavan
-rank: ''
+rank: Zugkönig 2019
+
 ---
