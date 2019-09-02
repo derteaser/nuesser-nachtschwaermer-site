@@ -17,14 +17,14 @@ fields:
   label: Banner
 - type: field_group
   name: statistics
-  label: statistics
+  label: Statistics
   fields:
   - type: file
     name: banner
-    label: banner
+    label: Banner
   - type: field_group
     name: yearsActive
-    label: yearsActive
+    label: Years Active
     fields:
     - type: text
       name: label
@@ -34,7 +34,7 @@ fields:
       label: value
   - type: field_group
     name: activeMembers
-    label: activeMembers
+    label: Active Members
     fields:
     - type: text
       name: label
@@ -44,7 +44,7 @@ fields:
       label: value
   - type: field_group
     name: number
-    label: number
+    label: Number
     fields:
     - type: text
       name: label
@@ -54,14 +54,14 @@ fields:
       label: value
 - type: field_group
   name: quote
-  label: quote
+  label: Quote
   fields:
   - type: file
     name: banner
-    label: banner
+    label: Banner
   - type: text
     name: text
-    label: text
+    label: Text
   - type: text
     name: cite
-    label: cite
+    label: Cite
