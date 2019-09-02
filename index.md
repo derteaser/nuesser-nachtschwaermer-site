@@ -6,17 +6,18 @@ statistics:
   banner: "/images/flagge.jpg"
   yearsActive:
     label: Jahre aktiv
-    value: 34
+    value: "34"
   activeMembers:
     label: Marschierer 2019
-    value: 18
+    value: "20"
   number:
     label: Zugnummer 2019
-    value: 14
+    value: "14"
 quote:
   banner: "/images/wackelzug2018.jpg"
   text: Soviel Disziplin wie nötig – soviel Freud‘ wie möglich
   cite: Jochem Dammer
+
 ---
 Herbst 1985. Die Keimzelle der Nachschwärmer saß im Interzonen-Zug auf der Rückfahrt von einem abenteuerlichen Besuch der DDR zurück in den „goldenen“ Westen. Bei einem Fässchen Bier in feucht-fröhlicher Runde entsprang der Gedanke: Hey, wir starten einen Zug. Nicht zwischen Neuss und Leipzig, sondern vom Markt sollte er starten und fortan jährlich seine Runde über die Neusser „Gleise“ ziehen. Nicht was vielleicht jetzt kleine Jungen und eisenbahnbegeisterte Väter denken, nein, ein Schützenzug sollte es werden. Die Zugkräfte, die Dampf machten, waren Herwarth Glinski, Peter Götzen, Harald Hausbeck, die Gebrüder Lieven, Arnold Napp-Saarbourg, Oliver Schulze, Jürgen Skuda und Uli Toholt.
 
