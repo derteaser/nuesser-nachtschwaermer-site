@@ -1,5 +1,0 @@
----
-title: Markus Hölters
-rank: ''
-
----
