@@ -11,6 +11,7 @@ fields:
   name: rank
   label: Rank
 pages:
+- _persons/zenke-thomas.md
 - _persons/dohmann-gernot.md
 - _persons/dierselhuis-alexander.md
 - _persons/kuesters-jens.md
