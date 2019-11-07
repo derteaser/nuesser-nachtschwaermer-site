@@ -1,5 +1,5 @@
 ---
-title: Zenke Thomas
+title: Thomas Zenke
 rank: ''
 published: false
 
