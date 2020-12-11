@@ -13,7 +13,7 @@
     "url": "https://github.com/derteaser/nuesser-nachtschwaermer-site.git"
   },
   "dependencies": {
-    "uikit": "^3.5.10",
+    "uikit": "^3.5.15",
     "umbrellajs": "^3.2.3"
   },
   "devDependencies": {
